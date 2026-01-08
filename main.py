@@ -15,12 +15,10 @@ prefs = UserPreferences(
 )
 
 import json
-from models.recipe import Recipe
+from logic.load_recipes import load_recipes_from_json
 
-# Load recipes from JSON
-with open('data/recipes.json', 'r') as f:
-    recipes_data = json.load(f)
-    recipes = [Recipe.from_dict(d) for d in recipes_data]
-
+recipes = load_recipes_from_json("data/recipes.json")
 filtered = filter_recipes(recipes, prefs)
+
 print(filtered)
+
