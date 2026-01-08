@@ -1,0 +1,64 @@
+[
+    {
+        "id": "1",
+        "name": "Vegetable Stir Fry",
+        "ingredients": [
+            "broccoli",
+            "carrots",
+            "soy sauce",
+            "tofu"
+        ],
+        "calories": 400,
+        "price": 5.0,
+        "prep_time": 20,
+        "dietary_tags": [
+            "vegetarian",
+            "vegan"
+        ],
+        "equipment": [
+            "stovetop",
+            "wok"
+        ],
+        "difficulty": "beginner"
+    },
+    {
+        "id": "2",
+        "name": "Chicken Curry",
+        "ingredients": [
+            "chicken",
+            "curry paste",
+            "coconut milk",
+            "rice"
+        ],
+        "calories": 600,
+        "price": 8.0,
+        "prep_time": 40,
+        "dietary_tags": [
+            "gluten-free"
+        ],
+        "equipment": [
+            "stovetop",
+            "pot"
+        ],
+        "difficulty": "intermediate"
+    },
+    {
+        "id": "3",
+        "name": "Peanut Butter Toast",
+        "ingredients": [
+            "bread",
+            "peanut butter",
+            "banana"
+        ],
+        "calories": 300,
+        "price": 2.0,
+        "prep_time": 5,
+        "dietary_tags": [
+            "vegetarian"
+        ],
+        "equipment": [
+            "toaster"
+        ],
+        "difficulty": "beginner"
+    }
+]
